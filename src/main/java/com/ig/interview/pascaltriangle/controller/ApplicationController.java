@@ -3,14 +3,11 @@ package com.ig.interview.pascaltriangle.controller;
 import com.ig.interview.pascaltriangle.controller.exception.IllegalInputException;
 import com.ig.interview.pascaltriangle.model.TriangleGenerator;
 import com.ig.interview.pascaltriangle.view.TrianglePrinter;
-import lombok.extern.slf4j.Slf4j;
 
 import java.math.BigInteger;
 import java.util.Scanner;
 
-@Slf4j
 public class ApplicationController {
-
     private final TriangleGenerator triangleGenerator;
     private final TrianglePrinter trianglePrinter;
     private final InputParser inputParser;
